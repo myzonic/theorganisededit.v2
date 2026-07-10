@@ -294,14 +294,13 @@ export default function App() {
           {/* Logo Brand Signature */}
           <div 
             onClick={() => scrollToSection('home')} 
-            className="cursor-pointer flex flex-col items-center group"
+            className="cursor-pointer flex items-center group"
           >
-            <span className="font-serif text-xl sm:text-2xl tracking-[0.18em] text-[#2B2B2B] font-medium transition-colors group-hover:text-[#A89A8A]">
-              THE ORGANISED EDIT
-            </span>
-            <span className="text-[9px] tracking-[0.4em] uppercase font-sans text-[#A89A8A] font-semibold">
-              HOME • STYLE • ORGANISATION
-            </span>
+            <img 
+              src="/src/assets/images/oe_new_logo.jpg" 
+              alt="The Organised Edit" 
+              className="h-10 sm:h-12 lg:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            />
           </div>
 
           {/* Desktop Navigation */}
@@ -463,9 +462,11 @@ export default function App() {
           
           {/* Footer Logo & Area banner */}
           <div className="space-y-4">
-            <span className="font-serif text-lg tracking-[0.18em] text-[#F4F1EC] font-medium block">
-              THE ORGANISED EDIT
-            </span>
+            <img 
+              src="/src/assets/images/oe_new_logo.jpg" 
+              alt="The Organised Edit" 
+              className="h-10 sm:h-11 w-auto object-contain brightness-0 invert opacity-90"
+            />
             <p className="font-body text-[#FAF9F5]/70 text-xs leading-relaxed max-w-sm">
               Creating bespoke, highly-functional and eye-friendly home styling and organisation layouts across <strong>Manchester</strong>, <strong>Cheshire</strong>, <strong>Trafford</strong>, <strong>Salford</strong>, <strong>Stockport</strong>, <strong>Altrincham</strong>, and <strong>Wilmslow</strong>.
             </p>
