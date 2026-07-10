@@ -289,7 +289,7 @@ export default function App() {
       
       {/* HEADER SECTION */}
       <header className="sticky top-0 z-40 bg-white/70 backdrop-blur-md border-b border-[#E6DED4]/80 transition-all">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-24 lg:h-32 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 sm:h-28 lg:h-36 flex justify-between items-center">
           
           {/* Logo Brand Signature */}
           <div 
@@ -299,7 +299,7 @@ export default function App() {
             <img 
               src="/src/assets/images/oe_new_logo.png" 
               alt="The Organised Edit" 
-              className="h-20 sm:h-24 lg:h-28 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-24 sm:h-28 lg:h-32 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
           </div>
 
@@ -465,7 +465,7 @@ export default function App() {
             <img 
               src="/src/assets/images/oe_new_logo.png" 
               alt="The Organised Edit" 
-              className="h-20 sm:h-24 w-auto object-contain opacity-90"
+              className="h-24 sm:h-28 w-auto object-contain opacity-90"
             />
             <p className="font-body text-[#FAF9F5]/70 text-xs leading-relaxed max-w-sm">
               Creating bespoke, highly-functional and eye-friendly home styling and organisation layouts across <strong>Manchester</strong>, <strong>Cheshire</strong>, <strong>Trafford</strong>, <strong>Salford</strong>, <strong>Stockport</strong>, <strong>Altrincham</strong>, and <strong>Wilmslow</strong>.
